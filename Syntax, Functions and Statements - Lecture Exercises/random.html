@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="numbers.js">
+        </script>
+    </head>
+
+    <body>
+        <input type = "submit" onclick="printRandom()" />
+        <script>
+            function printRandom(){
+                let num = Math.round(
+                    Math.random() * 100
+                );
+                document.body.innerHTML += `<div>${num}</div>`;
+                }
+        </script>
+    </body>
+</html>
