@@ -1,0 +1,1 @@
+(arr) => Number(arr.pop()) + Number(arr.shift());
